@@ -1,6 +1,6 @@
 " Buffer move
-nmap <C-Right> :bn<CR>
-nmap <C-Left> :bp<CR>
+nmap <C-Right> :bn!<CR>
+nmap <C-Left> :bp!<CR>
 nmap <C-Down> :bdelete<CR>
 nmap <C-Up> <C-o>
 
@@ -12,3 +12,9 @@ nmap <C-S-Up> <C-w><Up>
 
 " Ex mode with space
 map <Space> :
+
+" Filer
+nmap <C-e> :Lexplore!<CR>
+
+" Copy entire file to clipboard
+nmap <C-c> ggvG$"+y

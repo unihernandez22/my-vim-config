@@ -11,9 +11,11 @@ function! FunRun(...)
 	elseif ext == "py"
 		exe "!python " . args
 	elseif ext == "d"
-		exe "!ldc --run " . args
+		exe "!ldc2 --run " . args
 	elseif ext == "tex"
 		exe "!pdflatex " . filename
+	elseif ext == "hs"
+		exe "!runhaskell " . filename
 	endif
 endfunction
 
