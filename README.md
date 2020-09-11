@@ -1,6 +1,7 @@
 # My Vim Config
 
 ## Usage
+### With Vim
 Backup you current config:  
 `mv ~/.vim ~/.vim_back`
 
@@ -11,6 +12,23 @@ Open Vim (it will throw an error, press return)
 
 Install plugins:  
 `:PlugInstall`
+
+### With Neovim
+Backup you current config: 
+`mv ~/.config/nvim ~/.config/nvim_back`
+
+Clone the GitHub repository:  
+`git clone https://github.com/unihernandez22/my-vim-config.git ~/.vim`
+
+Create symlinks:  
+`ld -s ~/.vim ~/.config/nvim`
+`ld -s ~/.vim/vimrc ~/.vim/init.vim`
+
+Open Neovim (it will throw an error, press return)
+
+Install plugins:  
+`:PlugInstall`
+
 
 <br>
 
