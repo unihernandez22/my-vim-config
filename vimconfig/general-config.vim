@@ -6,6 +6,13 @@ set mouse=a
 
 " Airline config
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+" let g:airline_theme='onedark'
+
+" Font for Gvim
+set guifont=Fira\ Code\ 10
+" let g:gtk_nocache=[0x00000000, 0xfc00ffff, 0xf8000001, 0x78000001]
 
 " The fucking backspace
 set backspace=indent,eol,start
@@ -15,7 +22,7 @@ set listchars=eol:↲,tab:↦\ ,extends:…,space:⋅
 
 " Color Scheme
 syntax enable
-colorscheme dracula
+silent! colorscheme dracula
 
 " My language highlight
 au BufNewFile,BufRead *.uni set syntax=python
