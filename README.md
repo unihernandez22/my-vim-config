@@ -8,7 +8,7 @@ Backup you current config:
 Clone the GitHub repository:  
 `git clone https://github.com/unihernandez22/my-vim-config.git ~/.vim`
 
-Open Vim (it will throw an error, press return)
+Open Vim
 
 Install plugins:  
 `:PlugInstall`
