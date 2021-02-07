@@ -4,5 +4,6 @@ Plug 'zah/nim.vim'
 Plug 'dracula/vim', {'as': 'dracula'}
 Plug 'vim-airline/vim-airline'
 Plug 'ap/vim-css-color'
-Plug 'joshdick/onedark.vim'
+Plug 'dag/vim-fish'
+Plug 'junegunn/fzf.vim'
 call plug#end()

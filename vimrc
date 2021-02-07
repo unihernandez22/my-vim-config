@@ -9,5 +9,5 @@ source ~/.vim/vimconfig/plugins.vim
 source ~/.vim/vimconfig/tabs.vim
 source ~/.vim/vimconfig/coc-config.vim
 source ~/.vim/vimconfig/custom-commands.vim
-source ~/.vim/vimconfig/maps.vim
 source ~/.vim/vimconfig/general-config.vim
+source ~/.vim/vimconfig/maps.vim

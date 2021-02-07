@@ -44,3 +44,7 @@ let g:netrw_winsize = 25
 
 " Lua colors
 autocmd FileType lua call css_color#init('css', 'extended', 'luaString')
+
+" set term=screen-256color
+
+let mapleader=" "
