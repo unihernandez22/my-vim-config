@@ -19,6 +19,6 @@ function! FunRun(...)
 	endif
 endfunction
 
-command! -nargs=* Run call FunRun(<args>)
+"command! -nargs=* Run call FunRun(<args>)
 
 

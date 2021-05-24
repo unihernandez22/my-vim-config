@@ -1,6 +1,5 @@
 {
   "python.pythonPath": "python3",
-
   "languageserver": {
     "ccls": {
       "command": "ccls",
@@ -16,5 +15,6 @@
       "command": "nimlsp",
       "filetypes": ["nim"]
     }
-  }
+  },
+  "java.errors.incompleteClasspath.severity": "ignore"
 }

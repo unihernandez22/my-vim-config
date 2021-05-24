@@ -48,3 +48,5 @@ autocmd FileType lua call css_color#init('css', 'extended', 'luaString')
 " set term=screen-256color
 
 let mapleader=" "
+
+let g:coc_disable_startup_warning = 1

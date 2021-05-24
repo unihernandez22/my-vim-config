@@ -5,5 +5,8 @@ Plug 'dracula/vim', {'as': 'dracula'}
 Plug 'vim-airline/vim-airline'
 Plug 'ap/vim-css-color'
 Plug 'dag/vim-fish'
+Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 call plug#end()
+
+packadd termdebug
